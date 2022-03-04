@@ -1,9 +1,13 @@
+@import './utilites.css';
 :root{
     --primary:#3DCFD3;
     --dark:#161616;
     --pure:#FFFFFF;
     --ternary:#898989;
     --light:#F2F2F2;
+}
+body{
+    font-family: 'poppins', sans-serif;
 }
 *{
     padding: 0px;
@@ -13,9 +17,28 @@
 }
 header{
     background: var(--dark);
+    height: 800px;
 }
 .container{
     max-width: 1152px;
     padding: 0 15px;
-    margin: 0 auto;
+    margin:0 auto;
 }
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+header nav .left a:hover{
+    color:var()
+}
+header nav{
+    padding:2rem 0;
+}
+
+header nav .logo{
+    margin-right: 3rem;
+}
+
