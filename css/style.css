@@ -32,12 +32,11 @@ header nav .left a{
     text-transform: uppercase;
 }
 header nav .left a:hover{
-    color:var()
+    color:var(--primary);
 }
 header nav{
     padding:2rem 0;
 }
-
 header nav .logo{
     margin-right: 3rem;
 }
