@@ -9,7 +9,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    -webkit-font-smotthing:antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 header{
     background: var(--dark);
@@ -17,4 +17,5 @@ header{
 .container{
     max-width: 1152px;
     padding: 0 15px;
+    margin: 0 auto;
 }
