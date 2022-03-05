@@ -16,9 +16,7 @@ body{
     -webkit-font-smoothing: antialiased;
 }
 header{
-    background: var(--dark);
-    height: 800px;
-}
+    background: var(--dark);}
 .container{
     max-width: 1152px;
     padding: 0 15px;
@@ -42,3 +40,31 @@ header nav .logo{
     margin-right: 3rem;
 }
 
+
+
+
+
+.hero .left img{
+    width: 400px;
+}
+
+.hero .right{
+    color: var(--pure);
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-size:4rem;
+    font-weight:100;
+    line-height:1.2;
+    margin-bottom:2rem;
+}
+.hero .right h1 span{
+    color: var(--primary);
+}
+.hero .right p{
+    
+}
